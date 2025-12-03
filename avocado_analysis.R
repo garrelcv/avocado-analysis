@@ -1,8 +1,4 @@
 # =============================================================================
-# STAT383 Final Project
-# Statistical Analysis of U.S. Avocado Prices and Sales Volume
-# Christian Garrelts, Andrew Doherty, Savannah Manning
-# December 2025
 
 
 #  === ENVIRONMENT CONFIGURATION ===
@@ -123,5 +119,6 @@ plot(model, which=5, main="Check for Outliers\n(Residuals vs Leverage)", caption
 
 mtext("Figure 4: Regression Model Diagnostics", outer=TRUE, cex=1.5, font=2, line=2)
 par(mfrow=c(1,1), oma=c(0,0,0,0))
+
 
 cat(">> Execution Complete. All figures generated.\n")
